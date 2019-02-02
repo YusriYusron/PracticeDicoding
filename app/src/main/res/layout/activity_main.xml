@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:textColor="@android:color/black"
+        android:text="@string/name"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Yusri Yusron"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:textColor="@android:color/black"
+        android:text="@string/email"/>
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="yusriyusron0530@gmail.com"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:textColor="@android:color/black"
+        android:text="@string/phone_no"/>
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="081910144769"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:textColor="@android:color/black"
+        android:text="@string/age"/>
+
+    <TextView
+        android:id="@+id/tv_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="19 Years"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:textColor="@android:color/black"
+        android:text="@string/love_manchester_united"/>
+
+    <TextView
+        android:id="@+id/tv_love_mu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="No"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/simpan"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/btn_read_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/latihan_write_dan_read_file"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btn_add_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/latihan_form_add_dan_update"/>
+
+    <Button
+        android:id="@+id/btn_pre_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pre_load"/>
+
+</LinearLayout>

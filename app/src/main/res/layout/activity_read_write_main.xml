@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+    <EditText
+        android:id="@+id/input_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/header_linear"
+        android:background="@android:color/white"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:gravity="top|start"/>
+
+    <LinearLayout
+        android:id="@+id/header_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|start">
+
+        <Button
+            android:id="@+id/btn_new"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:text="@string/new_file"/>
+
+        <Button
+            android:id="@+id/btn_open"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:text="@string/open_file"/>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:text="@string/save_file"/>
+
+        <EditText
+            android:id="@+id/input_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:hint="@string/title"
+            android:paddingLeft="15dp"
+            android:inputType="textPersonName|textNoSuggestions"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+</RelativeLayout>

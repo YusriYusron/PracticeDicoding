@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Practice</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="no_handphone">No Handphone</string>
+    <string name="age">Age</string>
+    <string name="ya">Ya</string>
+    <string name="tidak">Tidak</string>
+    <string name="suka_manchester_united">Suka Manchester United</string>
+    <string name="simpan">Simpan</string>
+    <string name="phone_no">Phone No</string>
+    <string name="love_manchester_united">Love manchester united?</string>
+    <string name="save">Save</string>
+    <string name="latihan_write_dan_read_file">Latihan Write dan Read File</string>
+    <string name="new_file">New File</string>
+    <string name="open_file">Open File</string>
+    <string name="save_file">Save File</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string name="judul">Judul</string>
+    <string name="submit">Submit</string>
+    <string name="delete">Delete</string>
+    <string name="latihan_form_add_dan_update">Latihan Form Add dan Update</string>
+    <string name="pre_load">Pre Load</string>
+    <string name="loading">Loading</string>
+    <string name="nim">NIM</string>
+    <string name="nama">Nama</string>
+    <string name="app_first_run">App First Run</string>
+</resources>
